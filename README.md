@@ -4,6 +4,11 @@ Access to wkhtmltopdf is performed via JNA, exposed through a Java-friendly laye
 
 ## Get it
 
+Docker:
+```groovy
+docker pull https://gefasoft-docker.artifactory.new-solutions.com/public/report/htmltopdf
+```
+
 Gradle:
 ```groovy
 compile 'io.woo:htmltopdf:1.0.8'
